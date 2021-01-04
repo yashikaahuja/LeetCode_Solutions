@@ -30,7 +30,6 @@ public:
                 currLen--;
                 start++;
             }
-            
         }
         return longest;
     }
