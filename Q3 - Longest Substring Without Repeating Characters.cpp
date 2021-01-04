@@ -15,8 +15,6 @@ public:
                 currLen++;
                 end++;
             }
-            
-            
             longest = max(longest, currLen);
             if(end == len) break;
             currElement = str[end];
